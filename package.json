@@ -1,0 +1,14 @@
+{
+  "name": "session-search-lite",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.19.0",
+    "typebox": "^1.3.27",
+    "typescript": "^7.0.2"
+  }
+}

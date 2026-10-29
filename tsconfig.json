@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@earendil-works/pi-coding-agent": [
+        "C:/Users/HOME/AppData/Roaming/npm/node_modules/@earendil-works/pi-coding-agent/dist/index.d.ts"
+      ],
+      "typebox": [
+        "C:/Users/HOME/AppData/Roaming/npm/node_modules/@earendil-works/pi-coding-agent/node_modules/typebox/build/index.d.mts"
+      ]
+    }
+  },
+  "include": [
+    "index.ts",
+    "core/*.ts"
+  ]
+}
