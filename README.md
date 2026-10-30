@@ -1,4 +1,5 @@
 # session-search-lite
+npm package: [`@protokol11/pi-session-search-lite`](https://www.npmjs.com/package/@protokol11/pi-session-search-lite). Source of truth: [agent-governance](https://github.com/protokol11/agent-governance) monorepo.
 
 One `session_search` tool over the local SQLite index of past pi sessions, ranked by BM25.
 
@@ -80,6 +81,20 @@ the FTS row itself; whether triggers exist is detected once per database.
 Indexing candidates are ordered oldest mtime first with the path as tiebreak, so
 an interrupted backfill resumes at the same place on the next call instead of
 reshuffling.
+
+## Quick start
+
+```sh
+npm install @protokol11/pi-session-search-lite
+```
+
+Or from a clone of this repo:
+
+```sh
+cp -r pi-session-search-lite ~/.pi/agent/extensions/pi-session-search-lite
+```
+
+Details below.
 
 ## Install
 
